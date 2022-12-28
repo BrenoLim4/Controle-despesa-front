@@ -1,10 +1,10 @@
+import Layout from "./components/Layout";
+import RoutesApp from "./routes";
 
 function App() {
   return (
     <div>
-      <header>
-        <p>Controle Financeiro</p>
-      </header>
+      <RoutesApp/> 
     </div>
   );
 }

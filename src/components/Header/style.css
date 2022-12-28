@@ -1,0 +1,17 @@
+.hed {
+    width: 100%;
+    background: linear-gradient(
+        to bottom,
+        hsla(124, 96%, 43%, 0.378),
+        rgba(13, 56, 3, 0.593)
+      );
+      border: 3px solid rgb(4, 32, 3);
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    cursor: pointer;
+    padding:4px 5px;
+}
