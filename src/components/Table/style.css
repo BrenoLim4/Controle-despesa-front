@@ -1,8 +1,8 @@
 table{
     width: 100%;
-    border-collapse: separate;
+    border-collapse: collapse;
     margin-top: 5%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: inset 5px 4px 5px 3px rgba(0, 0, 0, 0.603);
 }
 th, td {
     border: 1px solid;
@@ -21,13 +21,13 @@ tbody tr:nth-child(even){
     background: linear-gradient(
     to bottom,
     rgba(241, 245, 233, 0.771),
-    rgb(49, 61, 84)
+    rgb(226, 228, 231)
     );
     
 }
 
 thead {
-    background-color: rgb(35, 132, 35);
+    
     font-size: larger;
 }
 
@@ -39,7 +39,7 @@ tfoot{
     width: 100%;
     text-align: justify;
     margin-left: 50%;
-    background-color: rgba(7, 122, 43, 0.674);
+    
 }
 
 thead th,
@@ -48,7 +48,7 @@ tfoot td {
   background: linear-gradient(
     to bottom,
     rgba(23, 31, 4, 0.378),
-    rgba(40, 159, 11, 0.593)
+    rgba(120, 177, 106, 0.705)
   );
   border: 3px solid rgb(4, 32, 3);
 }
