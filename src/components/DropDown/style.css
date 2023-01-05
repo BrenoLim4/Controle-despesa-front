@@ -12,11 +12,11 @@
     font-size: 16px;
 }
 
-.dropbtn, .dropdown-content{
+.dropdown-content{
     background: linear-gradient(
         to bottom,
-        hsla(124, 89%, 24%, 0.626),
-        rgba(13, 56, 3, 0.593)
+        hsla(124, 34%, 72%, 0.626),
+        rgba(8, 34, 3, 0.593)
       );
     
     font-weight: bold;
@@ -25,7 +25,6 @@
 .dropdown-content{
     display: none;
     position: absolute;
-    background-color: rgba(56, 227, 17, 0.996);
     min-width: 160px;
     box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
     font-size: 14px;
@@ -41,7 +40,11 @@
 }
 
 .dropdown-content a:hover {
-    background-color: #00af00;
+    background: linear-gradient(
+        to bottom,
+        hsla(124, 20%, 28%, 0.808),
+        rgba(8, 34, 3, 0.593)
+      );
     transition: 400ms;
     font-size: 16px;
 }

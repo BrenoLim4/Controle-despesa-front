@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import "./style.css"
+import { ImMenu } from "react-icons/im";
 
 const DropDown = (props) => {
     
-    const {title, links} = props; 
-    console.log(links);
+    const {links} = props; 
     return(
         <div className="dropdown">
-            <button className="dropbtn">{title}</button>
+            <ImMenu className="dropbtn" size={20} color="black"/>
+            {/* <button className="dropbtn">{title}</button> */}
             <div className="dropdown-content">
                 {
                     links?.map(link => {

@@ -1,8 +1,11 @@
 import axios from "axios"
 
-const api = axios.create({
-    baseURL: 'http:localhost:8085/controle-financeiro/api'
+const Api = axios.create({
+    baseURL: 'http:localhost:8085/controle-financeiro/api',
+    headers: {
+      'Authorization' : `${localStorage.getItem('token')}`
+    }
   });
   
-  export default api;
+  export default Api;
   
